@@ -16,7 +16,6 @@
       "name": "Lauren McNerney"
     }
   ],
-
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/emilyaviva/restful-file-resources-with-s3/issues"
@@ -32,6 +31,7 @@
     "mocha-jshint": "^2.2.3"
   },
   "dependencies": {
+    "aws-sdk": "^2.1.39",
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
     "mongoose": "^4.0.8"
