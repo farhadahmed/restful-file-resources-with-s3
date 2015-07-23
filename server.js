@@ -9,8 +9,9 @@ app.use(bodyParser.json());
 
 var mongoURI = process.env.MONGO_FILESAPP_URI || 'mongodb://localhost/filesApp';
 
-var fileRoutes = express.Router();
+var userRoutes = express.Router();
 require('./routes/user-routes')(userRoutes);
+
 
 mongoose.connect(mongoURI, function(err) {
   if (err) console.log('error: ' + err);
