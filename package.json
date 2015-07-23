@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/emilyaviva/restful-file-resources-with-s3.git"
   },
-  "author": "",
+  "author": "Emily Aviva Kapor-Mater",
+  "contributors": [
+    {
+      "name": "Lauren McNerney"
+    }
+  ],
+
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/emilyaviva/restful-file-resources-with-s3/issues"
